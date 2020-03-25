@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>back-arrow.png</file>
+        <file>hamburger-icon.png</file>
+        <file>power-icon.png</file>
+    </qresource>
+</RCC>
