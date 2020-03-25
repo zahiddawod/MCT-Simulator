@@ -31,7 +31,7 @@
     </property>
     <property name="icon">
      <iconset resource="resources.qrc">
-      <normaloff>:/new/prefix1/back-arrow.png</normaloff>:/new/prefix1/back-arrow.png</iconset>
+      <normaloff>:/new/prefix1/Resources/back-arrow.png</normaloff>:/new/prefix1/Resources/back-arrow.png</iconset>
     </property>
     <property name="iconSize">
      <size>
@@ -67,7 +67,7 @@
     </property>
     <property name="icon">
      <iconset resource="resources.qrc">
-      <normaloff>:/new/prefix1/power-icon.png</normaloff>:/new/prefix1/power-icon.png</iconset>
+      <normaloff>:/new/prefix1/Resources/power-icon.png</normaloff>:/new/prefix1/Resources/power-icon.png</iconset>
     </property>
     <property name="iconSize">
      <size>
@@ -90,7 +90,7 @@
     </property>
     <property name="icon">
      <iconset resource="resources.qrc">
-      <normaloff>:/new/prefix1/hamburger-icon.png</normaloff>:/new/prefix1/hamburger-icon.png</iconset>
+      <normaloff>:/new/prefix1/Resources/hamburger-icon.png</normaloff>:/new/prefix1/Resources/hamburger-icon.png</iconset>
     </property>
     <property name="iconSize">
      <size>
