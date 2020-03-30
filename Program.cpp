@@ -6,6 +6,7 @@ Program::Program(QObject* parent, Ui::MainWindow* ui, short frequency, int durat
     this->powerLevel = powerLevel;
     this->duration = duration;
     this->sessionTime = nullptr;
+    isActive = false;
 }
 
 Program::~Program() {
@@ -14,6 +15,7 @@ Program::~Program() {
 
 // Start the program
 void Program::Start() {
+    isActive = true;
     this->sessionTime = new QTimer(this);
     connect(this->sessionTime, SIGNAL(timeout()), this, SLOT(Update()));
     this->sessionTime->start(1000);
@@ -21,6 +23,7 @@ void Program::Start() {
 }
 
 void Program::Stop() {
+    isActive = false;
     this->sessionTime->stop();
     disconnect(this->sessionTime, SIGNAL(timeout()), this, SLOT(Update()));
     delete this->sessionTime;

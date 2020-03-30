@@ -19,6 +19,7 @@ public:
     short GetFrequency();
     short GetPowerLevel();
     const int originalDuration;
+    bool isActive;
 private slots:
     void Update();
 private:
